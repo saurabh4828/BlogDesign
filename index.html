@@ -370,18 +370,11 @@
         }, false);
         // show and hide the replies
         const reply = (rep) => {
-            console.log('hi');
-            // debugger;
             var res = document.getElementById(rep);
-            console.log(res);
             if (res.className == "replies") {
-                res.className = "thapa_show";
+                res.className = "blog_show";
                 res.style.WebkitTransition = 'all 0.3s ease';
-                // res.style.transition = 'all 0.3s ease';
-                // console.log(thapa_show);
-            } else if (res.className == 'thapa_show') {
-                // res.className = " ";
-                console.log('thapa show');
+            } else if (res.className == 'blog_show') {
                 res.className = "replies";
             }
         }
