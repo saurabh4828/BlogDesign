@@ -270,7 +270,7 @@ figure img:hover,
     display: none;
 }
 
-.thapa_show {
+.blog_show {
     margin: 20px 0;
     transition: var(--eff);
     display: block;
